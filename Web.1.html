@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Стоматологічна практика EvoDent">
+    <title>Стоматологічна практика EvoDent</title>
+    <link rel="stylesheet" type="text/css" href="Main.css">
+    <link rel="import" href="v.html">
+    <link rel="import" href="card.html">
+</head>
+
+<body>
+    <header>
+        <img src="img/evodent.jpg" >
+        <nav class="menu1">
+            <a href="#team">Команда</a>
+            <a href="#services">Послуги</a>
+            <a href="#prices">Ціни</a>
+            <a href="#contacts">Контакти</a>
+            <a href="javascript:void(0);" onclick="openVideo()">Відео</a>
+            <a href="#javascript:void(1);" onclick="openCard()" >Запис</a>
+        </nav>
+        <script type="text/javascript">
+            function openVideo(){
+                window.open('v.html', '_blank');
+            }
+        </script>
+        <script type="text/javascript">
+            function openCard() {
+                window.open('card.html', '_blank')
+            }
+        </script>
+        <div class="burger-menu">
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <section class="hello">
+            <h1>Ми еволюціонуємо<br>кожен день</h1>
+             <div class="fon" ></div>
+            <button class="but">Зателефонувати</button>
+        </section>
+        <section>
+            <h2 id="team">Наша команда<br>завжди готова вам допомогти</h2>
+            <div class="people">
+                <div >
+                    <img src="img/Yevhen.jpg" width="320"><br>
+                    <span>Стоматолог</span>
+                    <p>Євген Генадійович</p> 
+                </div>
+                <div>
+                    <img src="img/Ihor.jpg" width="320"><br>
+                    <span>Хірург</span>
+                    <p>Ігор Сергійович</p>
+                </div>
+                <div>
+                    <img src="img/Luda.jpg" width="320"><br>
+                    <span>Ортодонт</span>
+                    <p>Людмила Олександрівна</p>
+                </div>
+            </div>
+            <div class="people-2">
+                <div>
+                    <img src="img/Olena.jpg" width="320"><br>
+                    <span>Медсестра</span>
+                    <p>Олена Станіславівна</p>
+                </div>
+                <div>
+                    <img src="img/Nastya.jpg" width="320"><br>
+                    <span>Медсестра</span>
+                    <p>Анастасія</p>
+                </div>
+            </div>
+        </section>
+        <section class="serv">
+            <h2 id="services">Наші послуги</h2>
+
+            <div class="services-wrapper">
+                <div>
+                    <img src="img/teeth-2.jpg" width="400" height="240">
+                    <p>Професійна гігієна<br>порожнини рота</p>
+                </div>
+                <div>
+                    <img src="img/crowns.jpg" width="400" height="240">
+                    <p>Встановлення<br>коронок і мостів</p>
+                    <td class="ksn">Пломбування:</td>
+                </div>
+            </div>
+
+            <div class="services-wrapper">
+                <div>
+                    <img src="img/endodoncia.jpg" width="400" height="240">
+                    <p>Ендодонтія</p>
+                </div>
+                <div>
+                    <img src="img/smile.jpg" width="400" height="240">
+                    <p>Естетична<br>реставрація</p>
+                </div>
+            </div>
+
+            <div class="services-wrapper">
+                <div>
+                    <img src="img/teeth-1.jpg" width="400" height="240">
+                    <p>Ортодонтія</p>
+                </div>
+                <div>
+                    <img src="img/surgery.jpg" width="400" height="240">
+                    <p>Хірургічна<br>стоматологія</p>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <h2 id="prices">Наші ціни</h2>
+                <div class="table">
+                        <div class="tab">
+                            <p class="ksn">Розпломбувати:</p>
+                            <p>Однокореневого зуба - 300</p>
+                            <p>Багатокореневого зуба - 300</p>
+                        </div>
+                        <div class="tab">
+                            <p class="ksn">Пломбування:</p>
+                            <p>Однокореневого зуба - 300</p>
+                            <p>Багатокореневого каналу - 300</p>
+                            <p>Багатокореневого каналу - 300</p>
+                        </div>
+                        <div class="tab">
+                            <p class="ksn">Хірургічна стоматологія:</p>
+                            <p>Видалення постійного зуба - 500</p>
+                            <p>Видалення молочного зуба - 250</p>
+                            <p>Встановлення імпланта - 500</p>
+                        </div>
+                        <div class="tab">
+                            <p class="ksn">Відбілювання:</p>
+                            <p>1-ї зубної дуги - 1000</p>
+                            <p>2-х зубних дуг - 2000</p>
+                        </div>
+                </div>
+        </section>
+            <section class="cont">
+                <h2 id="contacts">Наші Контакти</h2>
+                <div class="col1">
+                    <div class="contact">
+                        <img src="img/phone.png" alt="">
+                        <p>+380 63 325 7342</p>
+                        <p>+380 95 010 6241</p>
+                    </div>
+                    <div class="address">
+                        <img src="img/point.png" alt="">
+                        <p>Вул. Енергетиків 2</p>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="hours">
+                        <img src="img/kalendar.png" alt="">
+                        <p>Пн: 9:00 - 21:00</p>
+                        <p>Вт: 9:00 - 21:00</p>
+                        <p>Ср: вихідний</p>
+                        <p>Чт: 9:00 - 21:00</p>
+                        <p>Пт: 9:00 - 21:00</p>
+                        <p>Сб: 9:00 - 21:00</p>
+                        <p>Нд: вихідний</p>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d373.881248180191!2d30.2169594577931!3d50.55325375819633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472b31ba18baa093%3A0x9a79ea6f5864eda7!2z0KHRgt-c0LzQsNGC0L7Qu9C-0LPRltGH0L3QsCDQv9GA0LDQutGC0LjQutCwICLQldCS0J7Qm9Cu0KbQhtCvIg!5e0!3m2!1suk!2sua!4v1697569070451!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer>
+            <footer>
+                <div class="footer-top">
+                    <img src="img/evodent.jpg">
+                    <nav class="menu">
+                        <a href="#team">Команда</a>
+                        <a href="#services">Послуги</a>
+                        <a href="#prices">Ціни</a>
+                        <a href="#contacts">Контакти</a>
+                    </nav>
+                </div>
+                <div class="footer-bottom">
+                    <div class="num">
+                        <p>Вул. Енергетиків 2</p>
+                        <p>+380 63 325 7342</p>
+                        <p>+380 95 010 6241</p>
+                    </div>
+                </div>
+        </footer>
+        <script>
+            document.querySelectorAll('.menu1 a').forEach(function(item) {
+                item.addEventListener('click', function() {
+                    document.querySelector('.burger-menu').classList.remove('active');
+                    document.querySelector('.menu1').classList.remove('open');
+                });
+            });
+            document.querySelector('.burger-menu').addEventListener('click', function(){
+                this.classList.toggle('active');
+                document.querySelector('.menu1').classList.toggle('open');
+            })
+        </script>
+    </body>
+</html>
